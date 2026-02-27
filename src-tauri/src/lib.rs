@@ -61,7 +61,7 @@ pub fn run() {
             if let Some(monitor) = window.current_monitor()? {
                 let size = monitor.size();
                 let width = (size.width as f64 * 0.75) as u32;
-                let height = (size.height as f64 * 0.75) as u32;
+                let height = (size.height as f64 * 0.90) as u32;
                 window.set_size(tauri::PhysicalSize::new(width, height))?;
                 window.center()?;
             }
