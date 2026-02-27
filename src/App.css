@@ -1,0 +1,9 @@
+/* Reset default Tauri/React styles */
+:root {
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
